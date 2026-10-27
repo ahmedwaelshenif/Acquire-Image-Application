@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lPMWa0pY93M=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\AquireImageApp\\AquireImageApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MAS\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "C:\\Users\\MAS\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}

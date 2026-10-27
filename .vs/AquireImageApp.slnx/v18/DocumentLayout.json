@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75683A3B-8A2B-4831-A44E-DE2EABA0B53A}|Domain\\Domain.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75683A3B-8A2B-4831-A44E-DE2EABA0B53A}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E06D6FA3-D818-4F1C-AC39-0FD24CC04963}|Application\\Application.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E06D6FA3-D818-4F1C-AC39-0FD24CC04963}|Application\\Application.csproj|solutionrelative:application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C18FDFF3-8158-4A59-AD6A-2A8F6935DC8C}|Infrastructure\\Infrastructure.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C18FDFF3-8158-4A59-AD6A-2A8F6935DC8C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41BB7F-3BD6-4A90-B968-54DEC2FF4F77}|AquireImageApp\\AquireImageApp.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\aquireimageapp\\aquireimageapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8F41BB7F-3BD6-4A90-B968-54DEC2FF4F77}|AquireImageApp\\AquireImageApp.csproj|solutionrelative:aquireimageapp\\aquireimageapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AquireImageApp",
+              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\AquireImageApp\\AquireImageApp.csproj",
+              "RelativeDocumentMoniker": "AquireImageApp\\AquireImageApp.csproj",
+              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\AquireImageApp\\AquireImageApp.csproj",
+              "RelativeToolTip": "AquireImageApp\\AquireImageApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-27T17:24:09.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Class1.cs",
+              "RelativeToolTip": "Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T17:21:29.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Application\\Class1.cs",
+              "RelativeDocumentMoniker": "Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Application\\Class1.cs",
+              "RelativeToolTip": "Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T17:16:56.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Class1.cs",
+              "RelativeToolTip": "Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T17:14:13.23Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
