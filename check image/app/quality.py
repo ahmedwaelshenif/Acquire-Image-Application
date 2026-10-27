@@ -18,8 +18,8 @@ BRIGHTNESS_MIN = 45.0
 BRIGHTNESS_MAX = 215.0
 MIN_DETECTION_CONFIDENCE = 0.80
 
-# Threshold for eyes to be considered open (0.0 to 1.0 probability)
-MIN_EYE_OPEN_SCORE = 0.50
+# Calibrated cutoff for the bundled eye-state model; open eyes can score below 0.50.
+MIN_EYE_OPEN_SCORE = 0.30
 
 _EYE_CASCADE: cv2.CascadeClassifier | None = None
 _ONNX_SESSION: Any = None
@@ -142,8 +142,9 @@ def _classify_eye_onnx(crop_bgr: np.ndarray) -> float | None:
         # Softmax
         exp = np.exp(logits - np.max(logits))
         probs = exp / np.sum(exp)
-        # Class 0: Closed, Class 1: Open
-        open_prob = float(probs[1])
+        # This model's output order is Class 0: Open, Class 1: Closed.
+        # Using index 1 here inverted the prediction and rejected open eyes.
+        open_prob = float(probs[0])
         return max(0.0, min(1.0, open_prob))
     except Exception:
         return None

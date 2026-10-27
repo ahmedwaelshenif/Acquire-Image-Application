@@ -325,7 +325,7 @@
           <span class="value ${faceDetected && data.face_count === 1 ? "badge-ok" : "badge-bad"}">
             ${faceDetected ? (data.face_count === 1 ? "✔️ 1 Face Detected" : `❌ ${data.face_count} Faces`) : "❌ No Face"}
           </span>
-          <span class="detail">Confidence: ${q.detection_confidence ? (q.detection_confidence * 100).toFixed(0) + "%" : "N/A"}</span>
+          <span class="detail">SCRFD score: ${q.detection_confidence ? (q.detection_confidence * 100).toFixed(0) + "%" : "N/A"}</span>
         </div>
 
         <div class="check-card">

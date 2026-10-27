@@ -10,6 +10,7 @@ from typing import Any
 import cv2
 import numpy as np
 from PIL import Image
+from insightface.app import FaceAnalysis
 
 # Ensure DEEPFACE_HOME points to existing local weights if default user path is restricted
 _local_deepface = Path(__file__).resolve().parent.parent / ".deepface"
@@ -19,6 +20,26 @@ if _local_deepface.is_dir() and "DEEPFACE_HOME" not in os.environ:
 from deepface import DeepFace
 
 from app.quality import assess_face_quality
+
+
+_face_analyzer: FaceAnalysis | None = None
+
+
+def _get_face_analyzer() -> FaceAnalysis:
+    """Load InsightFace's SCRFD-10G detector once per process."""
+    global _face_analyzer
+    if _face_analyzer is None:
+        # The buffalo_l model pack uses SCRFD-10GF for face detection. InsightFace
+        # downloads the pack on first use into its standard model cache.
+        _face_analyzer = FaceAnalysis(
+            name="buffalo_l",
+            allowed_modules=["detection"],
+            providers=["CPUExecutionProvider"],
+        )
+        # SCRFD scores can vary substantially with input scale. Run both a
+        # smaller and standard input and let SCRFD's NMS keep the strongest box.
+        _face_analyzer.prepare(ctx_id=-1, det_size=[(320, 320), (640, 640)])
+    return _face_analyzer
 
 
 class FaceAnalysisError(Exception):
@@ -44,7 +65,7 @@ def _read_image(file_bytes: bytes) -> np.ndarray:
 
 
 def _xy(point: Any) -> tuple[int, int] | None:
-    if not point or len(point) < 2:
+    if point is None or len(point) < 2:
         return None
     return int(point[0]), int(point[1])
 
@@ -54,17 +75,11 @@ def analyze_image(file_bytes: bytes) -> dict[str, Any]:
     img_h, img_w = image_bgr.shape[:2]
 
     try:
-        faces = DeepFace.extract_faces(
-            img_path=image_bgr,
-            detector_backend="opencv",
-            enforce_detection=False,
-            align=True,
-            anti_spoofing=True,
-        )
+        detected_faces = _get_face_analyzer().get(image_bgr)
     except Exception as exc:
         raise FaceAnalysisError(f"Face analysis failed: {exc}", 500) from exc
 
-    if not faces:
+    if not detected_faces:
         return {
             "face_detected": False,
             "face_count": 0,
@@ -75,10 +90,10 @@ def analyze_image(file_bytes: bytes) -> dict[str, Any]:
             "message": "No face detected. Use a clear front-facing photo with good lighting.",
         }
 
-    if len(faces) > 1:
+    if len(detected_faces) > 1:
         return {
             "face_detected": True,
-            "face_count": len(faces),
+            "face_count": len(detected_faces),
             "image_size": {"width": img_w, "height": img_h},
             "quality": {"acceptable": False, "issues": ["Multiple faces detected (only 1 face allowed)"]},
             "liveness": None,
@@ -86,12 +101,14 @@ def analyze_image(file_bytes: bytes) -> dict[str, Any]:
             "message": "Exactly one face is required.",
         }
 
-    face = faces[0]
-    area = face["facial_area"]
-    x, y, w, h = int(area["x"]), int(area["y"]), int(area["w"]), int(area["h"])
-    confidence = float(face.get("confidence") or 0.0)
-    left_eye = _xy(area.get("left_eye"))
-    right_eye = _xy(area.get("right_eye"))
+    face = detected_faces[0]
+    x1, y1, x2, y2 = (int(round(float(value))) for value in face.bbox)
+    x, y = max(0, x1), max(0, y1)
+    w, h = min(img_w, x2) - x, min(img_h, y2) - y
+    confidence = float(face.det_score)
+    landmarks = face.kps
+    left_eye = _xy(landmarks[0]) if landmarks is not None else None
+    right_eye = _xy(landmarks[1]) if landmarks is not None else None
 
     quality = assess_face_quality(
         image_bgr,
@@ -103,8 +120,20 @@ def analyze_image(file_bytes: bytes) -> dict[str, Any]:
         left_eye=left_eye,
         right_eye=right_eye,
     )
-    is_real = bool(face.get("is_real", False))
-    antispoof_score = float(face.get("antispoof_score") or 0.0)
+    # Keep DeepFace's FasNet liveness check, running it on the SCRFD face crop.
+    crop = image_bgr[y : y + h, x : x + w]
+    try:
+        spoof_result = DeepFace.extract_faces(
+            img_path=crop,
+            detector_backend="skip",
+            enforce_detection=False,
+            align=False,
+            anti_spoofing=True,
+        )[0]
+    except Exception as exc:
+        raise FaceAnalysisError(f"Liveness analysis failed: {exc}", 500) from exc
+    is_real = bool(spoof_result.get("is_real", False))
+    antispoof_score = float(spoof_result.get("antispoof_score") or 0.0)
 
     liveness_passed = is_real
     enrollment_ok = quality.acceptable and liveness_passed and quality.eyes_open
