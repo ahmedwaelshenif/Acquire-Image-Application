@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AquireImageApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+285b9d9e4948138ab1cbcd258d235472613b4b7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AquireImageApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AquireImageApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

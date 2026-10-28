@@ -142,9 +142,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\AquireImageApp\\AquireImageApp.csproj",
-      "projectName": "AquireImageApp",
-      "projectPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\AquireImageApp\\AquireImageApp.csproj",
+      "projectUniqueName": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\AquireImageApp\\AcquireImageApp.csproj",
+      "projectName": "AcquireImageApp",
+      "projectPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\AquireImageApp\\AcquireImageApp.csproj",
       "packagesPath": "C:\\Users\\MAS\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\AquireImageApp\\obj\\",
       "projectStyle": "PackageReference",
