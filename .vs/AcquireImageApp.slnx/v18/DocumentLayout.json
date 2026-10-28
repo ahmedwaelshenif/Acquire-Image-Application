@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52B93E56-44BF-0A01-A038-310248B47A45}|AquireImageApp\\AcquireImageApp.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\aquireimageapp\\acquireimageapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{52B93E56-44BF-0A01-A038-310248B47A45}|AquireImageApp\\AcquireImageApp.csproj|solutionrelative:aquireimageapp\\acquireimageapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0A581774-5762-C2C0-0C1B-DD07E08F780F}|AquireImageApp\\AcquireImageApp.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\aquireimageapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A581774-5762-C2C0-0C1B-DD07E08F780F}|AquireImageApp\\AcquireImageApp.csproj|solutionrelative:aquireimageapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A581774-5762-C2C0-0C1B-DD07E08F780F}|AquireImageApp\\AcquireImageApp.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\aquireimageapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A581774-5762-C2C0-0C1B-DD07E08F780F}|AquireImageApp\\AcquireImageApp.csproj|solutionrelative:aquireimageapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A581774-5762-C2C0-0C1B-DD07E08F780F}|AquireImageApp\\AcquireImageApp.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\aquireimageapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A581774-5762-C2C0-0C1B-DD07E08F780F}|AquireImageApp\\AcquireImageApp.csproj|solutionrelative:aquireimageapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AquireImageApp.csproj",
-              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\AquireImageApp\\AcquireImageApp.csproj",
-              "RelativeDocumentMoniker": "AquireImageApp\\AcquireImageApp.csproj",
-              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\AquireImageApp\\AcquireImageApp.csproj",
-              "RelativeToolTip": "AquireImageApp\\AcquireImageApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-27T17:24:09.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Class1.cs",
-              "RelativeToolTip": "Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T17:21:29.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Application\\Class1.cs",
-              "RelativeDocumentMoniker": "Application\\Class1.cs",
-              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Application\\Class1.cs",
-              "RelativeToolTip": "Application\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T17:16:56.032Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\AquireImageApp\\appsettings.json",
+              "RelativeDocumentMoniker": "AquireImageApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\AquireImageApp\\appsettings.json",
+              "RelativeToolTip": "AquireImageApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-28T00:49:43.794Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "Domain\\Class1.cs",
-              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Class1.cs",
-              "RelativeToolTip": "Domain\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\AquireImageApp\\Program.cs",
+              "RelativeDocumentMoniker": "AquireImageApp\\Program.cs",
+              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\AquireImageApp\\Program.cs",
+              "RelativeToolTip": "AquireImageApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T17:14:13.23Z",
+              "WhenOpened": "2026-10-28T00:33:05.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\AquireImageApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "AquireImageApp\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\AquireImageApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "AquireImageApp\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwB8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T00:25:44.895Z",
               "EditorCaption": ""
             }
           ]
