@@ -1,16 +1,16 @@
-C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Application\bin\Debug\net10.0\Application.deps.json
-C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Application\bin\Debug\net10.0\Application.dll
-C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Application\bin\Debug\net10.0\Application.pdb
-C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Application\bin\Debug\net10.0\Domain.dll
-C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Application\bin\Debug\net10.0\Domain.pdb
-C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Application\obj\Debug\net10.0\Application.csproj.AssemblyReference.cache
-C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Application\obj\Debug\net10.0\Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Application\obj\Debug\net10.0\Application.AssemblyInfoInputs.cache
-C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Application\obj\Debug\net10.0\Application.AssemblyInfo.cs
-C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Application\obj\Debug\net10.0\Application.csproj.CoreCompileInputs.cache
-C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Application\obj\Debug\net10.0\Application.sourcelink.json
-C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Application\obj\Debug\net10.0\Applicat.44B5EDA2.Up2Date
-C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Application\obj\Debug\net10.0\Application.dll
-C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Application\obj\Debug\net10.0\refint\Application.dll
-C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Application\obj\Debug\net10.0\Application.pdb
-C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Application\obj\Debug\net10.0\ref\Application.dll
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Application\bin\Debug\net10.0\Application.deps.json
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Application\bin\Debug\net10.0\Application.dll
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Application\bin\Debug\net10.0\Application.pdb
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Application\bin\Debug\net10.0\Domain.dll
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Application\bin\Debug\net10.0\Domain.pdb
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Application\obj\Debug\net10.0\Application.csproj.AssemblyReference.cache
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Application\obj\Debug\net10.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Application\obj\Debug\net10.0\Application.AssemblyInfoInputs.cache
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Application\obj\Debug\net10.0\Application.AssemblyInfo.cs
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Application\obj\Debug\net10.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Application\obj\Debug\net10.0\Application.sourcelink.json
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Application\obj\Debug\net10.0\Applicat.44B5EDA2.Up2Date
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Application\obj\Debug\net10.0\Application.dll
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Application\obj\Debug\net10.0\refint\Application.dll
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Application\obj\Debug\net10.0\Application.pdb
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Application\obj\Debug\net10.0\ref\Application.dll
