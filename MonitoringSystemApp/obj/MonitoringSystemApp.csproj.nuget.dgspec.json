@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\MonitoringSystemApp\\MonitoringSystemApp.csproj": {}
+    "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\MonitoringSystemApp\\MonitoringSystemApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Application\\Application.csproj": {
+    "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Ahmed Hashem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Application\\obj\\",
+        "projectPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\MAS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ahmed Hashem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,8 +34,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Domain\\Domain.csproj"
+              "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Domain.csproj"
               }
             }
           }
@@ -349,20 +350,20 @@
         }
       }
     },
-    "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Domain\\Domain.csproj": {
+    "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Ahmed Hashem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\MAS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ahmed Hashem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -371,6 +372,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -690,20 +692,20 @@
         }
       }
     },
-    "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Ahmed Hashem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\MAS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ahmed Hashem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -712,6 +714,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -719,8 +722,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Domain\\Domain.csproj"
+              "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Domain.csproj"
               }
             }
           }
@@ -1035,20 +1038,20 @@
         }
       }
     },
-    "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\MonitoringSystemApp\\MonitoringSystemApp.csproj": {
+    "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\MonitoringSystemApp\\MonitoringSystemApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\MonitoringSystemApp\\MonitoringSystemApp.csproj",
+        "projectUniqueName": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\MonitoringSystemApp\\MonitoringSystemApp.csproj",
         "projectName": "MonitoringSystemApp",
-        "projectPath": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\MonitoringSystemApp\\MonitoringSystemApp.csproj",
-        "packagesPath": "C:\\Users\\Ahmed Hashem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\MonitoringSystemApp\\obj\\",
+        "projectPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\MonitoringSystemApp\\MonitoringSystemApp.csproj",
+        "packagesPath": "C:\\Users\\MAS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\MonitoringSystemApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ahmed Hashem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1057,6 +1060,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -1064,11 +1068,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Application\\Application.csproj"
+              "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Application\\Application.csproj"
               },
-              "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

@@ -1,9 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA031905-F16D-72C9-5F3B-16357E595EE3}|MonitoringSystemApp\\MonitoringSystemApp.csproj|c:\\users\\ahmed hashem\\desktop\\app.net\\monitoringsystem\\monitoringsystemapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\domain\\entities\\dashboardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\dashboardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\domain\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\domain\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA031905-F16D-72C9-5F3B-16357E595EE3}|MonitoringSystemApp\\MonitoringSystemApp.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\monitoringsystemapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA031905-F16D-72C9-5F3B-16357E595EE3}|MonitoringSystemApp\\MonitoringSystemApp.csproj|solutionrelative:monitoringsystemapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -25,36 +37,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DashboardAccount.cs",
+              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Entities\\DashboardAccount.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\DashboardAccount.cs",
+              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Entities\\DashboardAccount.cs",
+              "RelativeToolTip": "Domain\\Entities\\DashboardAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T17:58:32.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Enums\\Role.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\Role.cs",
+              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Enums\\Role.cs",
+              "RelativeToolTip": "Domain\\Enums\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T17:56:51.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Entities\\Member.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Member.cs",
+              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Domain\\Entities\\Member.cs",
+              "RelativeToolTip": "Domain\\Entities\\Member.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T17:42:19.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\MonitoringSystemApp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\MonitoringSystemApp\\Program.cs",
               "RelativeDocumentMoniker": "MonitoringSystemApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\MonitoringSystemApp\\Program.cs",
+              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\MonitoringSystemApp\\Program.cs",
               "RelativeToolTip": "MonitoringSystemApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-30T17:00:39.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MonitoringSystemApp.csproj",
               "DocumentMoniker": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\Acquire-Image-Application\\AquireImageApp\\MonitoringSystemApp.csproj",
-              "RelativeDocumentMoniker": "..\\Acquire-Image-Application\\AquireImageApp\\MonitoringSystemApp.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Ahmed Hashem\\Desktop\\app.net\\Acquire-Image-Application\\AquireImageApp\\MonitoringSystemApp.csproj",
               "ToolTip": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\Acquire-Image-Application\\AquireImageApp\\MonitoringSystemApp.csproj",
-              "RelativeToolTip": "..\\Acquire-Image-Application\\AquireImageApp\\MonitoringSystemApp.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\Ahmed Hashem\\Desktop\\app.net\\Acquire-Image-Application\\AquireImageApp\\MonitoringSystemApp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-10-30T16:56:18.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\Acquire-Image-Application\\AquireImageApp\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\Acquire-Image-Application\\AquireImageApp\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Ahmed Hashem\\Desktop\\app.net\\Acquire-Image-Application\\AquireImageApp\\appsettings.json",
               "ToolTip": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\Acquire-Image-Application\\AquireImageApp\\appsettings.json",
-              "RelativeToolTip": "..\\Acquire-Image-Application\\AquireImageApp\\appsettings.json",
+              "RelativeToolTip": "..\\..\\..\\..\\Ahmed Hashem\\Desktop\\app.net\\Acquire-Image-Application\\AquireImageApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-10-28T00:49:43.794Z"
