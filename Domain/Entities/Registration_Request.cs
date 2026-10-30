@@ -9,33 +9,33 @@ namespace Domain.Entities
     public class Registration_Request
     {
         [Key]
-        int Id { get; set; }
+        public int Id { get; set; }
 
         [Required]
-        int MemberId { get; set; }
+        public int MemberId { get; set; }
 
         [Required]
-        string FullName { get; set; }
+        public string FullName { get; set; }
 
         [Required]
         [EmailAddress]
-        string Email { get; set; }
+        public string Email { get; set; }
 
         [Required]
-        byte[] FaceImage { get; set; }
+        public byte[] FaceImage { get; set; }
 
         [Required]
-        byte[] IdImage { get; set; }
+        public byte[] IdImage { get; set; }
 
         [Required]
-        RequestStatus status { get; set; } = RequestStatus.Pending;
+        public RequestStatus status { get; set; } = RequestStatus.Pending;
 
         [Required]
         [Range(1,4)]
-        int AcademicYear { get; set; }
+        public int AcademicYear { get; set; }
 
         [Required]
-        DateTime SubmittedAt { get; set; }
+        public DateTime SubmittedAt { get; set; }
 
         // reviewdby [FK]
     }
