@@ -1,7 +1,9 @@
+using Application.Interfaces;
+using Application.Services;
 using Domain.Interfaces;
 using Infrastructure;
-using MonitoringSystemApp.Controllers;
 using Infrastructure.Repositories;
+using MonitoringSystemApp.Controllers;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +22,13 @@ builder.Services.AddScoped(
 builder.Services.AddScoped<
     IRegistrationRequestRepository,
     RegistrationRequestRepository>();
+
+builder.Services.AddScoped<
+    IRegistrationRequestService,
+    RegistrationRequestService>();
+
+
+
 
 var app = builder.Build();
 

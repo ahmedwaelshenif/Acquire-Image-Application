@@ -3,13 +3,12 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using Microsoft.AspNetCore.Http;
 
 namespace Application.DTOs
 {
-    internal class RegistrationRequestDto
+    public class RegistrationRequestDto
     {
-        [Key]
-        public int Id { get; set; }
 
         [Required]
         public int MemberId { get; set; }
@@ -22,21 +21,15 @@ namespace Application.DTOs
         public string Email { get; set; }
 
         [Required]
-        public byte[] FaceImage { get; set; }
+        public IFormFile FaceImage { get; set; }
 
         [Required]
-        public byte[] IdImage { get; set; }
+        public IFormFile  IdImage { get; set; }
 
-        [Required]
-        public RequestStatus status { get; set; } = RequestStatus.Pending;
 
         [Required]
         [Range(1, 4)]
         public int AcademicYear { get; set; }
 
-        [Required]
-        public DateTime SubmittedAt { get; set; }
-
-        // reviewdby [FK]
     }
 }

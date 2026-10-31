@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using Application.DTOs;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
@@ -8,10 +9,10 @@ namespace Application.Interfaces
 {
     public interface IRegistrationRequestService
     {
-        Task<Registration_Request?> GetByIdAsync(int id);
-        Task<IEnumerable<Registration_Request>> GetAllAsync();
-        Task CreateAsync(Registration_Request request);
-        Task UpdateAsync(Registration_Request request);
+        Task<RegistrationRequestDto?> GetByIdAsync(int id);
+        Task<IEnumerable<RegistrationRequestDto>> GetAllAsync();
+        Task CreateAsync(RegistrationRequestDto request);
+        //Task UpdateAsync(RegistrationRequestDto request);
         Task DeleteAsync(int id);
     }
 }
