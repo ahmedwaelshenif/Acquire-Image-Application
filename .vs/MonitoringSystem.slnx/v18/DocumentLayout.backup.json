@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{BA031905-F16D-72C9-5F3B-16357E595EE3}|MonitoringSystemApp\\MonitoringSystemApp.csproj|solutionrelative:monitoringsystemapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\infrastructure\\migrations\\20261030184533_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20261030184533_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\infrastructure\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,8 +34,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAgwAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T18:52:33.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20261030184533_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Migrations\\20261030184533_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20261030184533_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Migrations\\20261030184533_InitialCreate.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20261030184533_InitialCreate.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T18:51:50.341Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,14 +69,14 @@
               "RelativeDocumentMoniker": "MonitoringSystemApp\\appsettings.json",
               "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\MonitoringSystemApp\\appsettings.json",
               "RelativeToolTip": "MonitoringSystemApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-10-30T18:36:04.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\MonitoringSystemApp\\Program.cs",
               "RelativeDocumentMoniker": "MonitoringSystemApp\\Program.cs",
@@ -51,12 +84,11 @@
               "RelativeToolTip": "MonitoringSystemApp\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T18:24:00.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T18:24:00.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Persistence\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Persistence\\DependencyInjection.cs",
@@ -64,12 +96,11 @@
               "RelativeToolTip": "Infrastructure\\Persistence\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T18:22:55.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T18:22:55.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Persistence\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Persistence\\AppDbContext.cs",
@@ -77,8 +108,7 @@
               "RelativeToolTip": "Infrastructure\\Persistence\\AppDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T18:14:54.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T18:14:54.897Z"
             }
           ]
         }
