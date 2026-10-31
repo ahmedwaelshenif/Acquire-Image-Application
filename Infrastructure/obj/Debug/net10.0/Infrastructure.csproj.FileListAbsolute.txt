@@ -32,3 +32,5 @@ C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Infrastructure\obj\Debug\net1
 C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Infrastructure\obj\Debug\net10.0\Infrastructure.pdb
 C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Infrastructure\obj\Debug\net10.0\Infrastructure.genruntimeconfig.cache
 C:\Users\MAS\Desktop\AquireImageApp\AquireImageApp\Infrastructure\obj\Debug\net10.0\ref\Infrastructure.dll
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Infrastructure\bin\Debug\net10.0\Infrastructure.runtimeconfig.json
+C:\Users\Ahmed Hashem\Desktop\app.net\MonitoringSystem\Infrastructure\obj\Debug\net10.0\Infrastructure.genruntimeconfig.cache

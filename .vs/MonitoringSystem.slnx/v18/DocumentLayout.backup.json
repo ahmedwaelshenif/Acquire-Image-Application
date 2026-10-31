@@ -1,21 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA031905-F16D-72C9-5F3B-16357E595EE3}|MonitoringSystemApp\\MonitoringSystemApp.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\monitoringsystemapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|c:\\users\\ahmed hashem\\desktop\\app.net\\monitoringsystem\\application\\interfaces\\iregistrationrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iregistrationrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|c:\\users\\ahmed hashem\\desktop\\app.net\\monitoringsystem\\application\\dtos\\registrationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\dtos\\registrationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|c:\\users\\ahmed hashem\\desktop\\app.net\\monitoringsystem\\application\\services\\registrationrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\services\\registrationrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\ahmed hashem\\desktop\\app.net\\monitoringsystem\\domain\\entities\\registration_request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\registration_request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA031905-F16D-72C9-5F3B-16357E595EE3}|MonitoringSystemApp\\MonitoringSystemApp.csproj|c:\\users\\ahmed hashem\\desktop\\app.net\\monitoringsystem\\monitoringsystemapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BA031905-F16D-72C9-5F3B-16357E595EE3}|MonitoringSystemApp\\MonitoringSystemApp.csproj|solutionrelative:monitoringsystemapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|c:\\users\\ahmed hashem\\desktop\\app.net\\monitoringsystem\\infrastructure\\migrations\\20261030184533_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20261030184533_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|c:\\users\\ahmed hashem\\desktop\\app.net\\monitoringsystem\\infrastructure\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|c:\\users\\ahmed hashem\\desktop\\app.net\\monitoringsystem\\infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\infrastructure\\persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|c:\\users\\ahmed hashem\\desktop\\app.net\\monitoringsystem\\infrastructure\\persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA031905-F16D-72C9-5F3B-16357E595EE3}|MonitoringSystemApp\\MonitoringSystemApp.csproj|c:\\users\\mas\\desktop\\aquireimageapp\\aquireimageapp\\monitoringsystemapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA031905-F16D-72C9-5F3B-16357E595EE3}|MonitoringSystemApp\\MonitoringSystemApp.csproj|c:\\users\\ahmed hashem\\desktop\\app.net\\monitoringsystem\\monitoringsystemapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA031905-F16D-72C9-5F3B-16357E595EE3}|MonitoringSystemApp\\MonitoringSystemApp.csproj|solutionrelative:monitoringsystemapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,59 +50,132 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Registration_Request.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Domain\\Entities\\Registration_Request.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Registration_Request.cs",
+              "ToolTip": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Domain\\Entities\\Registration_Request.cs",
+              "RelativeToolTip": "Domain\\Entities\\Registration_Request.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T00:07:01.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrationRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Application\\DTOs\\RegistrationRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\RegistrationRequestDto.cs",
+              "ToolTip": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Application\\DTOs\\RegistrationRequestDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\RegistrationRequestDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwCcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T00:05:35.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistrationRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Application\\Services\\RegistrationRequestService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\RegistrationRequestService.cs",
+              "ToolTip": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Application\\Services\\RegistrationRequestService.cs",
+              "RelativeToolTip": "Application\\Services\\RegistrationRequestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T23:47:39.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IRegistrationRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Application\\Interfaces\\IRegistrationRequestService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IRegistrationRequestService.cs",
+              "ToolTip": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Application\\Interfaces\\IRegistrationRequestService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IRegistrationRequestService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T23:44:23.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\MonitoringSystemApp\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\MonitoringSystemApp\\appsettings.json",
               "RelativeDocumentMoniker": "MonitoringSystemApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\MonitoringSystemApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\MonitoringSystemApp\\appsettings.json",
               "RelativeToolTip": "MonitoringSystemApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-10-30T18:36:04.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "20261030184533_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Infrastructure\\Migrations\\20261030184533_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20261030184533_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Infrastructure\\Migrations\\20261030184533_InitialCreate.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20261030184533_InitialCreate.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T18:51:50.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAgwAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T18:52:33.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\MonitoringSystemApp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\MonitoringSystemApp\\Program.cs",
               "RelativeDocumentMoniker": "MonitoringSystemApp\\Program.cs",
-              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\MonitoringSystemApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\MonitoringSystemApp\\Program.cs",
               "RelativeToolTip": "MonitoringSystemApp\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T18:24:00.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T18:24:00.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Persistence\\DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Infrastructure\\Persistence\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Persistence\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Persistence\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Infrastructure\\Persistence\\DependencyInjection.cs",
               "RelativeToolTip": "Infrastructure\\Persistence\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T18:22:55.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T18:22:55.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Persistence\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Infrastructure\\Persistence\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Persistence\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\MAS\\Desktop\\AquireImageApp\\AquireImageApp\\Infrastructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Ahmed Hashem\\Desktop\\app.net\\MonitoringSystem\\Infrastructure\\Persistence\\AppDbContext.cs",
               "RelativeToolTip": "Infrastructure\\Persistence\\AppDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T18:14:54.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T18:14:54.897Z"
             }
           ]
         }
