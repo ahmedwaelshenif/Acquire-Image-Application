@@ -1,5 +1,7 @@
-using MonitoringSystemApp.Controllers;
+using Domain.Interfaces;
 using Infrastructure;
+using MonitoringSystemApp.Controllers;
+using Infrastructure.Repositories;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,9 +13,17 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddInfrastructure(builder.Configuration);
 
+builder.Services.AddScoped(
+    typeof(IGenericRepository<>),
+    typeof(GenericRepository<>));
+
+builder.Services.AddScoped<
+    IRegistrationRequestRepository,
+    RegistrationRequestRepository>();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

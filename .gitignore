@@ -1,0 +1,34 @@
+## Visual Studio & Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opensdf
+*.sdf
+*.opendb
+*.dbmdl
+
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio Project Evaluation & DesignTime
+.vs/
+.dtbcache*
+*.vsidx
+*.bin
+
+## NuGet
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.assets.json
+
+## Publishing & Temporary files
+*.publishsettings
+*.tmp
+*.log
